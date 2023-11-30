@@ -1,17 +1,11 @@
 /* nav */
 nav{
-    /* background-color: #04aa6d; */
-    /* display: flex; */
     text-transform: uppercase;
-    /* position: fixed;
-    z-index: 100;  
-    margin-top: 3em; */
 }
 .Listitem {
     display: flex;
     flex-direction: row;
     height: 30px;
-    /* width: 100%; */
     background-color: #282A35;
     overflow: scroll;
 }
@@ -32,4 +26,17 @@ nav{
 .Listitem a:hover{
     background-color: #000000;
     color: white;
+}
+
+
+/* media ******************************/
+@media screen and (max-width:320px){
+    .Listitem {
+        flex-direction: row;
+        height: 30px;
+        background-color: #282A35;
+        overflow: scroll;
+        width: 310px;
+    }
+
 }

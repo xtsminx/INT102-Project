@@ -3,13 +3,13 @@ a {
 }
 #footerindex {
     background-color: #282A35;
-    height: 850px;
+    height: auto;
     background-image: url(../images/lynx_landing.png),url(../images/background_in_space.gif);
     object-fit: cover;
     background-size: auto,cover;
     background-repeat: no-repeat , repeat;
-    background-position-x: 80%, center;
-    background-position-y: 80%, center;
+    background-position-x: 100%, center;
+    background-position-y: 100%, center;
 }
 
 .footer .tag-on {
@@ -18,6 +18,9 @@ a {
     padding-left: 7em;
     padding-top: 5em;
     padding-right: 0;
+}
+.footer div{
+    width: fit-content;
 }
 .footer .tag-on img {
     width: 45px;
@@ -31,6 +34,7 @@ a {
     padding: 2.5em;
     font-size: 15px;
     font-weight: 500;
+    
 }
 
 /* section2 ********************************/
@@ -38,6 +42,7 @@ a {
     text-align: left;
     display: flex;
     padding: 2rem 7rem;
+    width: fit-content;
 }
 .section2 a {
     color: #ddd;
@@ -107,3 +112,59 @@ a {
     color: #ddd;
 }
 
+@media screen and (max-width:320px){
+    .section2, .tag-on {
+        flex-direction: column;
+    }
+    .section2 .section2-1,.section2 .section2-2 ,.section2 .section2-3,.section2 .section2-4{
+        margin: 0;
+    }
+
+    .footer .tag-on {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        padding-left: 0em;
+        padding-top: 5em;
+        padding-right: 0;
+    }
+    .footer div{
+        width: fit-content;
+    }
+    .footer .tag-on img {
+        width: 45px;
+        position: relative;
+        bottom: 1em;
+        /* padding-right: 10px; */
+    }
+    .tag-on a {
+        text-decoration: none;
+        color: #FFF4A3;
+        /* padding: 2.5em; */
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        padding: 0;
+        
+        
+    /* section2 */
+    .section2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        padding: 0;
+    }
+    .section2 a {
+        color: #ddd;
+        text-decoration: none;
+        line-height: 1.4em;
+    }
+
+    
+
+
+}
+}

@@ -1,6 +1,8 @@
 body{
+    /* width: auto; */
     margin: 0;
     padding: 0;
+    /* width: 100%; */
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
@@ -219,6 +221,31 @@ header{
     /* left: 68em; */
 }
 
+#menu {
+    /* display: none; */
+}
+    /* menu */
+    #menu a{
+        margin-left: 3px;
+        text-decoration: none;
+    }
+    #menu  a:link{
+        margin: 0px 0px 0px 60px;
+        color: black;
+        padding: .65em 1em;
+        border-radius: 25px;
+    }
+    #menu  i {
+        color: rgb(86, 64, 173);
+    }
+    #menu  a:visited{
+        color: black;
+    }
+    #menu  a:hover{
+        background-color: rgba(37, 93, 139, .1);
+    }
+
+
 /* responsive *******************************************************/
 @media all and (max-width:320px){
     header{
@@ -237,12 +264,129 @@ header{
     .w3school-logo img{
         width: 100%;
     }
-    /*header-left*/
-    .header-left{
+
+    /* menu */
+    #menu a{
+        text-decoration: none;
+    }
+    #menu  a:link{
+        margin: 0px 0px 0px 60px;
+        color: black;
+        padding: .40em 0.5em;
+        border-radius: 25px;
+    }
+    #menu  i {
+        color: rgb(86, 64, 173);
+    }
+    #menu  a:visited{
+        color: black;
+    }
+    #menu  a:hover{
+        background-color: rgba(37, 93, 139, .1);
+    }
+    /* .header-right{
+        width: 30%;
+    } */
+
+    /*  ******************/
+
+    /* toggleLightDark */
+    .toggleLightDark a{
+        color: black;
+    }
+    .toggleLightDark a:link{
+        margin: 0px 0px 0px 60px;
+        color: black;
+        padding: .50em 0.5em;
+        border-radius: 25px;
+        /* margin: 5px; */
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #toggleLightDark a:hover{
+        color: black;
+        background-color: rgba(37, 93, 139, .1);
+    }
+
+
+
+    /* Spaces */
+    .Spaces {
         display: none;
     }
-    /* #Tutorials #Exercises #Certificates #Services {
+    /* GetCertified */
+    .GetCertified {
         display: none;
+    }
+
+    /* sign up */
+    .SignUp {
+        display: none;
+    }
+    /*  a */
+    #Tutorials ,#Exercises ,#Certificates ,#Services   {
+        display: none;
+    }
+    /* s */
+    .boxContainer{
+        width: 20px;
+        height: px;
+        box-shadow:
+        0 0 0 1px transparent,
+        0 0 0 3px transparent;
+        padding: 0;
+        border-radius: 25px;
+        margin: 0;
+    }
+    .boxContainer:focus-within{
+        display: none;
+    }
+    .elementsContainer{
+        width: 100%;
+        height: 100%;
+    }
+    .Search{
+        display: none;
+    } 
+    .Search:focus{
+        display: none;
+    }
+    .boxContainer:focus{
+        display: none;
+    }
+    .boxContainer .fa-solid{
+        font-size: 15px;
+        color: black;
+    } 
+    .elementsContainer ::placeholder{
+        display: none;
+    }
+
+    /* header-right */
+    .header-right{
+        display: flex;
+        margin: 0;
+    }
+
+    /* Log in */
+    .Login a{
+        text-decoration: none;
+        margin: 0px 0px 0px 60px;
+        margin-right: 1em;
+    }
+    .Login a:link{
+        padding: .60em 1.5em;
+        background-color: rgba(37, 93, 139, .1);
+        border-radius: 25px;
+    }
+    .Login a:visited{
+        color: black;
+    }
+    .Login a:hover{
+        color: white;
+        background-color: #198754;
+    }
+    /* .Box-SignUp {
+        width: 10%;
     } */
-    
 }
