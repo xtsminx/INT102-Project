@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+}
+#footerindex {
+    background-color: #282A35;
+    height: 850px;
+    background-image: url(../images/lynx_landing.png),url(../images/background_in_space.gif);
+    object-fit: cover;
+    background-size: auto,cover;
+    background-repeat: no-repeat , repeat;
+    background-position-x: 80%, center;
+    background-position-y: 80%, center;
+}
+
+.footer .tag-on {
+    width: 80%;
+    display: flex;
+    padding-left: 7em;
+    padding-top: 5em;
+    padding-right: 0;
+}
+.footer .tag-on img {
+    width: 45px;
+    position: relative;
+    bottom: 1em;
+    padding-right: 10px;
+}
+.footer .tag-on a {
+    text-decoration: none;
+    color: #FFF4A3;
+    padding: 2.5em;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* section2 ********************************/
+.section2 {
+    text-align: left;
+    display: flex;
+    padding: 2rem 7rem;
+}
+.section2 a {
+    color: #ddd;
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.4em;
+}
+.section2-1 , .section2-2 , .section2-3 , .section2-4 {
+    font-size: 11px;
+    font-weight: 550;
+}
+.section2-1 {
+    text-align: left;
+    width: auto; 
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+.section2-2 {
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-left: 1rem;
+}
+.section2-3 {
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-left: 1.5rem;
+}
+.section2-4 {
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    /* margin-right: 0rem; */
+}
+
+/* section3 **********************************/
+.section3 {
+    color: #ddd;
+    font-size: 12px;
+    padding: 0rem 7rem ;
+    margin-top: 1.5rem;
+}
+.section3 i{
+    color: #ddd;
+    font-size: 20px;
+    padding: 0.3em;
+}
+.section3 a{
+    color: #ddd;
+    padding: 0.5em;
+    font-size: 16px;
+}
+.section3 p{
+    /* color: #ddd; */
+    /* font-size: 13px; */
+    line-height: 1em;
+}
+.p-1 .p-2 .p-3 {
+    color: #ddd;
+}
+

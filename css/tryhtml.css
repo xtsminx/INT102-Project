@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-green{
+    background-color: #04aa6d;
+    color: white;
+}
+.menutry {
+    margin-bottom: 0.8em;
+}
+.head_Tryit_Editor {
+    background-color: #E7E9EB;
+    height: auto;
+    width: auto;
+    margin-top: 7em;
+    padding-top: 1em;
+    padding-bottom: 5px;
+}
+.head_Tryit_Editor i {
+    padding-left: 15px;
+    font-size: 25px;
+    padding-right: 1em;
+    color: #999999;
+}
+.head_Tryit_Editor a {
+    text-decoration: none;
+    padding: .45em 2em;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 550;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.head_Tryit_Editor p {
+    font-family: 'Montserrat', 'Source Sans Pro', sans-serif;
+    display: inline;
+    font-size: 16px;
+    font-weight: 100px;
+    margin-left: 40%;
+}
+
+#website_try , #Run_try_grp {
+    float: right;
+    margin-right: 1em;
+    margin-top: -0.4em;
+}
+
+.boxtry {
+    display: flex;
+    justify-content: center;
+    margin: 0.2em;
+ }
+.boxtry1 {
+    background-color: rgb(255, 255, 255);
+    width: 49%;
+    height: 40;
+}
+.boxspaces {
+    background-color: transparent;
+    width: 1%;
+    height: 40em;
+}
+.boxtry2 {
+    background-color: rgb(255, 255, 255);
+    width: 49%;
+    height: 40em;
+    float: right;
+}
+
+/* media ***************************************************************/
+@media screen and (max-width:320px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .head_Tryit_Editor {
+        background-color: #E7E9EB;
+        height: 33.5em;
+        width: auto;
+        margin-top: 3em;
+        padding-top: 1em;
+    }
+    .head_Tryit_Editor a {
+        display: none;
+    }
+    .head_Tryit_Editor p {
+        display: none;
+    }
+    .head_Tryit_Editor i {
+        padding-left: 10px;
+        font-size: 25px;
+        padding-right: 1em;
+        color: #999999;
+    }
+    #fa-mobile {
+        display: none;
+    }
+
+    .boxtry {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0.5em;
+    }
+
+    .boxtry1 {
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        height: 15em;
+    }
+
+    .boxspaces {
+        background-color: transparent;
+        width: auto;
+        height: 0.5em;
+    }
+
+    .boxtry2 {
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        height: 15em;
+        float: right;
+    }
+}
