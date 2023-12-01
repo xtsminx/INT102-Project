@@ -12,7 +12,6 @@
     text-align: center;
     width: 100%;
     max-width: 900px;
-    /* background-color: red; */
     margin: auto;
     margin-top: 10em;
 }
@@ -74,28 +73,21 @@
 
 }
 .Howitwork {
-    /* margin-top: 2em; */
-    /* display: block; */
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 0; */
 }
 .Howitwork a {
     width: 100px;
-    
-    /* margin-top: 30px; */
     text-decoration: none;
     padding: 0.7em 5em;
     color: white;
     font-size: 20px;
     border-radius: 25px;
     font-weight: 550;
-    /* margin-top: 20em; */
 }
 .Howitwork img {
-    /* display: block; */
     margin-top: 3em;
     margin-bottom: 5em;
 }
@@ -107,19 +99,15 @@
 
 /* My Learning ***********************/
 .MyLearning{
-    /* width: ; */
     margin: 0;
     background-color: #D9EEE1;
     height: 900px;
 }
 .My_Learning {
-    /* background-color: #D9EEE1; */
     text-align: center;
     width: 100%;
     max-width: 900px;
     margin: auto;
-    /* margin-top: 2em; */
-    /* margin-bottom: 2em; */
 }
 
 .My_Learning img {
@@ -140,7 +128,6 @@
 }
 .My_Learning a {
     width: 100px;
-    /* margin-top: 30px; */
     text-decoration: none;
     padding: 0.7em 5em;
     color: white;
@@ -179,7 +166,6 @@
     font-size: 20px;
     border-radius: 25px;
     font-weight: 550;
-    /* margin-bottom: 2em; */
 }
 
 .BecomeaPROUser .grp {
@@ -241,7 +227,6 @@
     font-size: 30px;
     color: rgb(0, 0, 0);
     margin: 0; 
-    /* padding-top: 2em; */
     padding-bottom: 1em;
     font-family: 'Freckle Face', cursive;
 }
@@ -256,7 +241,6 @@
     display: flex;
     width: 20%;
     justify-content: center;
-    /* text-align: center; */
 }
 .buttoncodegame {
     margin-top: 2em;
@@ -297,9 +281,7 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    /* text-align: center; */
     width: 100%;
-    /* padding-top: 1em; */
     flex-direction: row;
 }
 
@@ -343,7 +325,6 @@
 .Kickstartyourcareer {
     background-color: #282A35;
     height: 500px;
-    /* text-align: left ; */
     margin: auto;
 }
 .Kickstartyourcareer p{
@@ -396,9 +377,6 @@
     margin-bottom: 6em;
 }
 .HowToSection a {
-    /* display: flex;
-    justify-content: center; */
-    /* width: 150px; */
     text-decoration: none;
     text-align: center;
     padding: 1em  4em;
@@ -415,7 +393,6 @@
     justify-content: center;
 }
 .Howitwork .grp  {
-    /* margin-top: 5em; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -519,7 +496,6 @@
         font-size: 20px;
         border-radius: 25px;
         font-weight: 550;
-        /* margin-bottom: 2em; */
     }
 
     .BecomeaPROUser .grp {

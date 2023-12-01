@@ -47,7 +47,6 @@
 .wrapper_body_right {
     width: 500%;
     margin-left: 12em;
-    /* background-color: red; */
 }
 .wrapper_head_right h1{
     font-size: 45px;
@@ -55,7 +54,6 @@
     padding-top: 5em;
     padding-left: 0.5em;
     margin: 0;
-    /* padding-bottom: 0.5em; */
 }
 
 /* box start */
@@ -73,7 +71,6 @@
 }
 
 #wrapper_body_right_Next {
-    /* margin-left: 60%; */
     float: right;
     margin-right: 18%;
 }
@@ -85,7 +82,6 @@
     background-color: #D9EEE1;
     width: 83.5%;
     margin-left: 1em;
-    /* width: auto; */
 }
 .wrapper_body_right_content a {
     display: flex;
@@ -108,7 +104,6 @@
 .wrapper_body_right_content p {
     font-size: 18px;
     margin-left: 2em;
-    /* margin-top: 5em; */
 }
 .wrapper_p_right {
     padding-top: 2em;
@@ -136,15 +131,11 @@
 /*  *********************************/
 .selection_right2 {
     display: block;
-    /* align-items: center; */
     background-color: #E7E9EB;
     width: 80%;
-    /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 5px;
     height: 80%;
     padding: 20px;
-    /* padding-top: -1px; */
-    /* margin-left: 0.5em; */
     margin-left: 1em;
 }
 .selection_right2 h1 {
@@ -160,8 +151,6 @@
     background-color: #ffffff;
     height: 100%;
     height: 280px;
-    /* max-height: 100%;
-    min-height: 100%; */
     border-left: 5px solid #04AA6D;
     padding: 10px;
 }
@@ -185,7 +174,6 @@
 
 /* HTML_Examples ***********************8*/
 .HTML_Examples {
-    /* width: 500px; */
     height: 300px;
 }
 .HTML_Examples h1{
@@ -209,10 +197,7 @@
     font-size: 16px;
     border-radius: 5px;
     font-weight: 550;
-    /* margin-top: 1em; */
-    /* padding-top: 3em; */
     margin-left: 2em;
-    /* margin-top: 6em; */
 }
 
 /*  *********************/
@@ -229,21 +214,15 @@
     font-size: 18px;
     margin-left: 1.7em;
     line-height: 0.3em;
-    /* margin-bottom: 2em; */
     padding-bottom: 1em;
 }
 /* box */
 .selection_right3 {
     display: block;
-    /* align-items: center; */
     background-color: #282A35;
     width: 80%;
-    /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1); */
     border-radius: 5px;
-    /* height: 200%; */
     padding: 20px;
-    /* padding-top: -1px; */
-    /* margin-left: 0.8em; */
     margin-left: 1em;
 }
 .selection_right3 h1 {
@@ -259,9 +238,6 @@
     background-color: #ffffff;
     height: 100%;
     height: 300px;
-    /* max-height: 100%;
-    min-height: 100%; */
-    /* border-left: 5px solid #04AA6D; */
     padding: 10px;
 }
 .codehtml3 p {
@@ -291,21 +267,16 @@
     font-size: 18px;
     margin-left: 1.7em;
     line-height: 0.3em;
-    /* margin-bottom: 2em; */
     padding-bottom: 1em;
 }
 .HTML_Quiz_Test a{
     text-decoration: none;
     padding: .60em 2em;
-    /* background-color: #04aa6d; */
     color: white;
     font-size: 16px;
     border-radius: 5px;
     font-weight: 550;
-    /* margin-top: 1em; */
-    /* padding-top: 3em; */
     margin-left: 2em;
-    /* margin-top: 6em; */
 }
 /* My_Learning_html ***********************/
 .My_Learning_html h1{
@@ -318,10 +289,6 @@
 .My_Learning_html p{
     font-size: 18px;
     margin-left: 1.7em;
-    /* line-height: 0em; */
-    /* margin-bottom: 2em; */
-    /* padding-bottom: 1em; */
-    /* line-height: 1px; */
     line-height: 1em;
 
 }
@@ -339,10 +306,6 @@
 .HTML_References p{
     font-size: 18px;
     margin-left: 1.7em;
-    /* line-height: 0em; */
-    /* margin-bottom: 2em; */
-    /* padding-bottom: 1em; */
-    /* line-height: 1px; */
     line-height: 0.5em;
 }
 /* box */
@@ -361,9 +324,7 @@
 }
 
 .HTML_References_box a{
-    /* margin: 0; */
     min-width: 50%;
-    /* width: auto; */
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -383,7 +344,6 @@
 }
 
 .wrapper_body_right_box_end {
-    /* padding-top: 6em; */
     margin: 2em;
     margin-left: 2em;
 }
@@ -470,7 +430,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
-    /* margin-right: 0rem; */
 }
 
 /* section3 **********************************/
@@ -491,8 +450,6 @@ a {
     font-size: 16px;
 }
 .section3 p{
-    /* color: #ddd; */
-    /* font-size: 13px; */
     line-height: 1em;
 }
 .p-1 .p-2 .p-3 {

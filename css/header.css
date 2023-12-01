@@ -8,10 +8,8 @@ html {
 }
 
 body{
-    /* width: auto; */
     margin: 0;
     padding: 0;
-    /* width: 100%; */
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
@@ -33,16 +31,13 @@ header{
 
 /*w3school-logo*/
 .w3school-logo {
-    /* width: 100%; */
     padding-left: 1em;
 }
 .w3school-logo img{
     width: 100%;
-    /* padding-left: 0.5em; */
 }
 .logow3s {
     width: 10%;
-    /* padding-right: 1em; */
     margin-right: 1em;
 }
 
@@ -76,7 +71,6 @@ header{
     background-color: transparent; 
 }
 .Searchicon .fa-solid{
-    /* font-size: 20px; */
     padding: 10px 5px;
 }
 
@@ -85,11 +79,8 @@ header{
     display: flex;
     align-items: center;
     height: 100%;
-    /* margin-left: auto; */
     width: 100%;
-    /* margin-left: 15em; */
     position: relative;
-    /* float: right; */
     justify-content: end;
 
 }
@@ -104,7 +95,6 @@ header{
     0 0 0 3px transparent;
     padding: 0;
     border-radius: 25px;
-    /* margin: 0px 3px; */
     margin-left: 2em;
 }
 .boxContainer:focus-within{
@@ -122,7 +112,6 @@ header{
     border: none;
     height: 100%;
     width: 100%;
-    /* padding: 0px 0px; */
     padding-left: 1em;
     border-radius: 25px;
     color: #424242;
@@ -156,12 +145,10 @@ header{
     display: flex;
 }
 .toggleLightDark a:link{
-    /* margin: 0px 0px 0px 60px; */
     color: black;
     padding: .65em 1em;
     border-radius: 25px;
     margin-right: 5em;
-    /* margin-left: 2em; */
 }
 #toggleLightDark a:hover{
     color: black;
@@ -174,8 +161,7 @@ header{
     display: flex;
 }
 .Spaces a:link{
-    /* margin: 0px 0px 0px 60px; */
-    /* margin-left: 2em; */
+
     color: black;
     padding: .65em 1em;
     border-radius: 25px;
@@ -213,10 +199,6 @@ header{
 .GetCertified a:hover{
     background-color: rgba(37, 93, 139, .1);
 }
-/* sign up */
-/* .SignUp {
-    position: fixed;
-} */
 
 .SignUp {
     margin-left: 1em;
@@ -246,7 +228,6 @@ header{
 }
 .Login a:link{
     padding: .60em 1.5em;
-    /* padding-left: 3.5em; */
     padding-left: 4em;
     background-color: rgba(37, 93, 139, .1);
     border-radius: 25px;
@@ -287,7 +268,6 @@ header{
     display: none;
 }
 .fa-solid{
-    /* font-size: 20px; */
     padding: 4px 10px;
 }
 
@@ -310,8 +290,6 @@ header{
     .w3school-logo {
         width: 100%;
         padding: 0;
-        
-        /* padding: 0px 15px 0px 15px; */
     }
     .w3school-logo img{
         width: 100%;
@@ -345,7 +323,6 @@ header{
     .toggleLightDark {
         display: flex;
         text-align: center;
-        /* margin-right: 2em; */
     }
     .toggleLightDark a{
         margin-right: 1m;
@@ -357,7 +334,6 @@ header{
         color: black;
         padding: .50em 0.5em;
         border-radius: 25px;
-        /* margin: 5px; */
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -422,7 +398,6 @@ header{
     }
 
     .Searchicon {
-        /* padding-right: 5em; */
         padding: 0;
         margin-left: 1em;
     }
@@ -436,17 +411,12 @@ header{
     /* Log in */
 
     .Login {
-        /* display: flex; */
         width: fit-content;
-        /* float: right; */
         margin-right: 2em;
     }
     .Login a{
         text-decoration: none;
-        /* margin: 0px 0px 0px 60px; */
-        /* margin-right: 1em; */
         margin: 0;
-        /* display: flex; */
     }
     .Login a:link{
         width: 100%;
