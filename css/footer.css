@@ -8,11 +8,18 @@ a {
     object-fit: cover;
     background-size: auto,cover;
     background-repeat: no-repeat , repeat;
-    background-position-x: 100%, center;
+    background-position-x: 50%, center;
     background-position-y: 100%, center;
 }
 .footer {
     padding-bottom: 5em;
+}
+.tag-on {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    width: 100%;
 }
 .footer .tag-on {
     width: 100%;
@@ -31,7 +38,8 @@ a {
     /* bottom: 5em; */
     /* margin-top: 2em; */
     padding-right: 10px;
-    /* padding-bottom: 5em; */
+    padding-top: 3em;
+    /* text-align: center; */
 }
 .footer .tag-on a {
     text-decoration: none;
@@ -39,6 +47,10 @@ a {
     padding: 2.5em;
     font-size: 15px;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 10px;
     
 }
 
@@ -129,7 +141,7 @@ a {
         display: flex;
         justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 100%;
         display: flex;
         padding-left: 0em;
         padding-top: 5em;
@@ -152,24 +164,27 @@ a {
         font-weight: 500;
         text-align: center;
         padding: 0;
-        
+    }   
         
     /* section2 */
-    .section2 {
+    /* .section2 , .section2-1, .section2-2 , .section2-3 , .section2-4{
         display: flex;
         justify-content: center;
         text-align: center;
-        display: flex;
-        padding: 0;
-    }
+    } */
     .section2 a {
-        color: #ddd;
-        text-decoration: none;
-        line-height: 1.4em;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section3 a , .p-1 , .p-2 , .p-3 ,p , .icon{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section3 {
+        padding-bottom: 30em;
     }
 
-    
 
-
-}
 }
