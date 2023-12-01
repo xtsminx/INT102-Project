@@ -86,6 +86,7 @@
     font-size: 23px;
     font-weight: 550;
     margin-top: 1em;
+    /* display: flex; */
 }
 .section_Hearder a:hover{
     color: #FFF4A3;

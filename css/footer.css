@@ -11,22 +11,27 @@ a {
     background-position-x: 100%, center;
     background-position-y: 100%, center;
 }
-
+.footer {
+    padding-bottom: 5em;
+}
 .footer .tag-on {
-    width: 80%;
+    width: 100%;
     display: flex;
     padding-left: 7em;
-    padding-top: 5em;
+    padding-top: 6em;
     padding-right: 0;
+    /* position: fixed; */
 }
 .footer div{
     width: fit-content;
 }
 .footer .tag-on img {
-    width: 45px;
-    position: relative;
-    bottom: 1em;
+    width: 50px;
+    /* position: relative; */
+    /* bottom: 5em; */
+    /* margin-top: 2em; */
     padding-right: 10px;
+    /* padding-bottom: 5em; */
 }
 .footer .tag-on a {
     text-decoration: none;

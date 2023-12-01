@@ -1,3 +1,12 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 body{
     /* width: auto; */
     margin: 0;
@@ -19,15 +28,22 @@ header{
     position: fixed;
     width: 100%;
     z-index: 100;
+    overflow-x: hidden;
 }
 
 /*w3school-logo*/
 .w3school-logo {
-    width: 39px;
-    padding: 0px 15px 0px 15px;
+    /* width: 100%; */
+    padding-left: 1em;
 }
 .w3school-logo img{
     width: 100%;
+    /* padding-left: 0.5em; */
+}
+.logow3s {
+    width: 10%;
+    /* padding-right: 1em; */
+    margin-right: 1em;
 }
 
 /*header-left*/
@@ -41,7 +57,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 15px;
+    padding: 0px 30px;
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -58,8 +74,9 @@ header{
 .header-left a:first-child:hover{
     background-color: transparent; 
 }
-.fa-solid{
-    padding: 0px 3px;
+.Searchicon .fa-solid{
+    /* font-size: 20px; */
+    padding: 10px 5px;
 }
 
 /* header-right */
@@ -67,20 +84,27 @@ header{
     display: flex;
     align-items: center;
     height: 100%;
-    margin-left: auto;
+    /* margin-left: auto; */
+    width: 100%;
+    /* margin-left: 15em; */
+    position: relative;
+    /* float: right; */
+    justify-content: end;
+
 }
 
 
 /* Searchbox */
 .boxContainer{
-    width: 170px;
+    width: 200px;
     height: 35px;
     box-shadow:
     0 0 0 1px #d2c8c8,
     0 0 0 3px transparent;
     padding: 0;
     border-radius: 25px;
-    margin: 0px 3px;
+    /* margin: 0px 3px; */
+    margin-left: 2em;
 }
 .boxContainer:focus-within{
     box-shadow:
@@ -97,21 +121,27 @@ header{
     border: none;
     height: 100%;
     width: 100%;
-    padding: 0px 10px;
+    /* padding: 0px 0px; */
+    padding-left: 1em;
     border-radius: 25px;
     color: #424242;
     font-weight: 500;
 } 
+
 .Search:focus{
     outline: none;
 }
 .boxContainer:focus{
     border: 1px solid #04aa6d;
 }
-.boxContainer .fa-solid{
+.boxContainer i{
     font-size: 15px;
     color: black;
+    width: 50%;
 } 
+.elementsContainer .fa-solid{
+    width: 100%;
+}
 .elementsContainer ::placeholder{
     font-style: italic;
     font-size: 16px;
@@ -121,13 +151,16 @@ header{
 /* toggleLightDark */
 .toggleLightDark a{
     color: black;
+    width: 100%;
+    display: flex;
 }
 .toggleLightDark a:link{
-    margin: 0px 0px 0px 60px;
+    /* margin: 0px 0px 0px 60px; */
     color: black;
-    padding: .50em 0.5em;
+    padding: .65em 1em;
     border-radius: 25px;
-    margin: 20px;
+    margin-right: 5em;
+    /* margin-left: 2em; */
 }
 #toggleLightDark a:hover{
     color: black;
@@ -137,15 +170,19 @@ header{
 /* Spaces */
 .Spaces a{
     text-decoration: none;
+    display: flex;
 }
 .Spaces a:link{
-    margin: 0px 0px 0px 60px;
+    /* margin: 0px 0px 0px 60px; */
+    /* margin-left: 2em; */
     color: black;
     padding: .65em 1em;
     border-radius: 25px;
 }
 .Spaces i {
     color: rgb(86, 64, 173);
+    padding-top: 1px;
+
 }
 .Spaces a:visited{
     color: black;
@@ -157,6 +194,7 @@ header{
 /* Get Certified */
 .GetCertified a{
     text-decoration: none;
+    display: flex;
 }
 .GetCertified a:link{
     margin: 0px 0px 0px 10px;
@@ -166,6 +204,7 @@ header{
 }
 .GetCertified i{
     color: rgb(86, 64, 173);
+    padding-top: 1px;
 }
 .GetCertified a:visited{
     color: black;
@@ -183,6 +222,7 @@ header{
 }
 .SignUp a{
     text-decoration: none;
+    display: flex;
 }
 .SignUp a:link{
     padding: .60em 1.5em;
@@ -201,6 +241,7 @@ header{
 .Login a{
     text-decoration: none;
     margin: 0px 0px 0px 60px;
+    display: flex;
 }
 .Login a:link{
     padding: .60em 1.5em;
@@ -221,29 +262,34 @@ header{
     /* left: 68em; */
 }
 
-#menu {
-    /* display: none; */
+.Box-Login, .grp_SignUp_Login {
+    width: fit-content;
 }
-    /* menu */
-    #menu a{
-        margin-left: 3px;
-        text-decoration: none;
-    }
-    #menu  a:link{
-        margin: 0px 0px 0px 60px;
-        color: black;
-        padding: .65em 1em;
-        border-radius: 25px;
-    }
-    #menu  i {
-        color: rgb(86, 64, 173);
-    }
-    #menu  a:visited{
-        color: black;
-    }
-    #menu  a:hover{
-        background-color: rgba(37, 93, 139, .1);
-    }
+
+#menu {
+    display: none;
+}
+#menu a{
+    margin-left: 3px;
+    text-decoration: none;
+}
+#menu  i {
+    color: rgb(86, 64, 173);
+}
+#menu  a:hover{
+    display: none
+}
+#menu  a:first-child{
+    display: none;
+}
+#menu a:first-child:hover{
+    display: none;
+}
+.fa-solid{
+    /* font-size: 20px; */
+    padding: 4px 10px;
+}
+
 
 
 /* responsive *******************************************************/
@@ -369,10 +415,17 @@ header{
     }
 
     /* Log in */
+
+    .Login {
+        /* display: flex; */
+        width: fit-content;
+        /* float: right; */
+    }
     .Login a{
         text-decoration: none;
-        margin: 0px 0px 0px 60px;
-        margin-right: 1em;
+        /* margin: 0px 0px 0px 60px; */
+        /* margin-right: 1em; */
+        margin: 0;
     }
     .Login a:link{
         padding: .60em 1.5em;
@@ -386,7 +439,5 @@ header{
         color: white;
         background-color: #198754;
     }
-    /* .Box-SignUp {
-        width: 10%;
-    } */
+
 }

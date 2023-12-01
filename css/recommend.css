@@ -99,13 +99,16 @@
 }
 .examplebutton a {
   text-decoration: none;
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-color: #04aa6d;
   color: white;
   font-size: 18px;
   border-radius: 25px;
   font-weight: 550;
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  width: 25%;
+  justify-content: center;
 }
 .examplebutton {
   margin-top: 25px;
@@ -191,13 +194,16 @@
 }
 .examplebutton_css a {
   text-decoration: none;
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-color: #04aa6d;
   color: white;
   font-size: 18px;
   border-radius: 25px;
   font-weight: 550;
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  width: 25%;
+  justify-content: center;
 }
 .examplebutton_css {
   margin-top: 25px;
@@ -284,13 +290,16 @@
 }
 .examplebutton_JavaScript a {
   text-decoration: none;
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-color: #04aa6d;
   color: white;
   font-size: 18px;
   border-radius: 25px;
   font-weight: 550;
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  width: 25%;
+  justify-content: center;
 }
 .examplebutton_JavaScript {
   margin-top: 25px;
@@ -377,13 +386,16 @@
 }
 .examplebutton_Python a {
   text-decoration: none;
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-color: #04aa6d;
   color: white;
   font-size: 18px;
   border-radius: 25px;
   font-weight: 550;
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  width: 25%;
+  justify-content: center;
 }
 .examplebutton_Python {
   margin-top: 25px;
@@ -470,13 +482,16 @@
 }
 .examplebutton_SQL a {
   text-decoration: none;
-  padding: 0.6em 3em;
+  padding: 0.6em 2em;
   background-color: #04aa6d;
   color: white;
   font-size: 18px;
   border-radius: 25px;
   font-weight: 550;
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  width: 25%;
+  justify-content: center;
 }
 .examplebutton_SQL {
   margin-top: 25px;
